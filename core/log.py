@@ -1,8 +1,8 @@
 from datetime import datetime
 
-time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+def log_error(errors="ERROR"):
 
-def main(errors):
+  time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
   with open("Errors.log","a") as f:
     f.write(errors+ "\t" + time +"\n")
@@ -10,5 +10,4 @@ def main(errors):
   return
 
 if __name__ == "__main__":
-  main()
-
+  log_error()

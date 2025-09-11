@@ -1,6 +1,6 @@
 # Echo – Personal AI Assistant
 
-Echo is an experimental personal AI assistant inspired by JARVIS from Iron Man.  
+Echo is an experimental personal AI assistant inspired by JARVIS from Iron Man.
 It aims to assist with coding, research, device control, and automation tasks.
 
 ---
@@ -16,8 +16,9 @@ It aims to assist with coding, research, device control, and automation tasks.
 ## 📦 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/echo.git
+git clone https://github.com/Kite-Bite/Echo
 cd echo
 
 # Install dependencies
 pip install -r requirements.txt
+```
